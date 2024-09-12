@@ -1,0 +1,856 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 0;
+
+  box-shadow: 8px 8px 8px rgba(218, 218, 218, 0.5);
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+p {
+  font-size: 24px;
+}
+
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  color: #000000;
+  font-size: 2em;
+  margin-bottom: 30px;
+  
+}
+
+h3{
+  font-size: 30px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  height: 20px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.container {
+  color: black;
+  text-align: center;
+
+
+}
+.container li{
+list-style: none;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+header a:hover{
+ background-color: rgb(243, 243, 243);
+}
+
+
+.nav-link{
+  font-size: 34px;
+  word-spacing: 10px;
+  padding: 20px;
+}
+#home{
+  margin-top: 110px;
+  color:#000000;
+  text-align: left;
+}
+
+.word {
+ 
+  color: #ffffff;
+  font-size: 3em;
+  margin-bottom: -10px;
+  text-align: center;
+ 
+}
+#container-home{
+
+
+  width: 50%;
+
+
+}
+
+.laptop-view{
+width: 100%;
+margin-top: -90px;
+height: auto;
+vertical-align: middle;
+}
+.text-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 2; /* Stellt sicher, dass der Text über dem Bild liegt */
+}
+
+.text-overlay .container {
+color: white; /* Ändere die Textfarbe nach Bedarf */
+text-align: center;
+}
+
+
+      /* Stil für den Link */
+      .startnow-button {
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+          background-color: #007bff;
+        
+          border-radius: 80px;
+          padding: 7px;
+          z-index: 1000;
+          width: 10%;
+ text-align: center;
+          color: rgb(255, 255, 255);
+          text-decoration: none;
+     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+          justify-content: center;
+          align-items: center;
+          font-size: 30px;
+          cursor: pointer;
+    
+      }
+
+      .startnow-button:hover {
+      color: #007bff;
+          background-color: #ffffff;
+          box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+          border: solid 3px #007bff;
+      }
+      /* Responsive styles */
+
+
+      /* Stil für den Link */
+      .startnow-a {
+  
+        bottom: 10px;
+        right: 10px;
+        background-color: #007bff;
+      
+        border-radius: 80px;
+        padding: 7px;
+        z-index: 1000;
+        width: 10%;
+text-align: center;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+   box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        cursor: pointer;
+  
+    }
+
+    .startnow-a:hover {
+    color: #007bff;
+        background-color: #ffffff;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+        border: solid 3px #007bff;
+    }
+    /* Responsive styles */
+
+
+.p-top{
+  margin-top: 110px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+@media screen and (max-width: 600px) {
+
+h2 {
+  font-size: 25px;
+}
+
+.svg-background{
+  margin-bottom: -200px ;
+}
+p{
+font-size: 15px;
+}
+.svg-background{
+  height: 100vh;
+}
+.nav-link{
+  font-size: 20px;
+  margin-top: 60px;
+}
+.p-top{
+  margin-top: 0px;
+  font-size: 26px;
+}
+
+.startnow-button{
+  font-size: 17px;
+  width: 35%;
+}
+section h2{
+  font-size: 26px;
+
+}
+section h3{
+  font-size: 23px;
+}
+
+.startnow-a{
+font-size: 17px;
+width: 35%;
+}
+header {
+padding: 0%;
+}
+
+
+.word{
+font-size: 34px;
+
+}
+.skill h3 {
+font-size: 17px;
+}
+.pfeil{
+width: 15%; margin-left: 0px;
+
+}
+
+.topnav .icon{
+margin-right: 1800px;
+}
+.text-overlay{
+height: 60%;
+}
+
+.main-logo {
+min-width: 200px; /* Ändere diese Breite je nach Bedarf */
+}
+
+.animate-charcter{
+font-size: 10px;
+}
+
+.kurzvormaufgeben li b {
+ font-weight: 100;
+ font-size: 20px;
+}
+.website{
+font-size: 21px;
+}
+.lw-copter{
+font-size: 15px;
+}
+
+}
+
+a{
+font-size: 32px;
+}
+
+.lw-copter{
+font-size: 20px;
+color: darkblue;
+}
+.kurzvormaufgeben li b {
+font-weight: 100;
+font-size: 32px;
+}
+
+
+.kurzvormaufgeben{
+list-style-type: none; padding: 0; 
+
+
+}
+
+#view {
+background-color: #ffffff;
+}
+
+#skills{
+background-color: white;
+
+}
+.main-logo{
+  width: 17%;  margin-bottom: -25px;
+
+}
+
+.timeline{
+width: 100%;
+}
+
+/* Entferne Animation */
+.parallax > use {
+animation: none;
+}
+
+.main-logo-without{
+  width: 10%;
+}
+
+.pfeil{
+width: 30%; margin-left: -150px;
+margin-top: -30px;
+}
+
+/* Standardmäßig das kleine Bild ausblenden */
+.small-image {
+display: none;
+width: 100%;
+margin-top: -90px;
+filter: blur(0.3px);
+
+}
+
+/* Medienabfrage für Bildschirme mit einer maximalen Breite von 400px */
+@media screen and (max-width:600px) {
+/* Großes Bild ausblenden */
+.laptop-view {
+    display: none;
+}
+/* Kleines Bild anzeigen */
+.small-image {
+    display: block;
+}
+.p-top{
+  margin-top: 150px;
+}
+}
+.topnav a {
+float: right;
+display: block;
+color: #000000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 22px;
+}
+
+
+
+
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.9s * var(--i))
+}
+@keyframes flip {
+  0%,30% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+
+
+.topnav .icon {
+display: none;
+margin-right: 0px;
+color: #000;
+}
+
+
+
+
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+}
+
+.dropdown-content a:hover {
+background-color: #ffffff;
+color: black;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+@media screen and (max-width: 600px) {
+.topnav a:not(:first-child), .dropdown .dropbtn {
+  display: none;
+}
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+}
+
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.topnav.responsive .dropdown {float: none;}
+.topnav.responsive .dropdown-content {position: relative;}
+.topnav.responsive .dropdown .dropbtn {
+  display: block;
+  width: 100%;
+  text-align: left;
+
+}
+}
+.process-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+padding: 20px;
+border-radius: 10px;
+
+}
+
+.process-step {
+text-align: center;
+padding: 20px;
+width: 250px;
+height:350px;
+background: rgba(65,129,253,255);
+border-radius: 10px; 
+margin-top: 10px;
+color: white;
+}
+
+.process-step h2 {
+font-size: 28px;
+margin: 10px 0;
+color: white;
+}
+
+.process-step p {
+font-size: 24px;
+color: #dadada;
+
+}
+.process-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap; /* Erlaubt das Umbruch der Elemente in einer zweiten Zeile */
+}
+
+
+@media screen and (max-width: 600px) {
+.process-step {
+  width: calc(100% - 20px); /* Bei Bildschirmen kleiner als 600px, volle Breite für jeden Schritt */
+  width: 
+  120px;
+  height: 200px;
+  margin-top: 10px;
+}
+.process-step p{
+  font-size: 10px;
+}
+.process-step h2 {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+}
+
+.bild h4{font-size: 22px;}
+/* Stelle sicher, dass die Bilder auf kleinen Bildschirmen kleiner werden */
+@media only screen and (max-width: 600px) {
+.bild {
+  display: flex; /* Flexbox verwenden */
+  flex-wrap: wrap; /* Umbruch der Elemente bei Bedarf */
+}
+
+.bild img {
+  width: 50%; /* Die Breite der Bilder auf 50% des verfügbaren Platzes setzen */
+  height: auto; /* Die Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
+  box-sizing: border-box; /* Berücksichtige Padding und Border in der Breite */
+}
+}
+/* Flexbox verwenden, um die Elemente in einer Zeile anzuordnen */
+/* Flexbox verwenden, um die Elemente anzuordnen */
+/* Flexbox verwenden, um die Elemente anzuordnen */
+.bild {
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+/* Container für jede Referenz */
+.referenz {
+text-align: center; /* Zentriere den Text horizontal */
+display: flex; /* Flexbox für die vertikale Anordnung */
+flex-direction: column; /* Anordnung der Elemente in einer Spalte */
+align-items: center; /* Zentriere die Elemente vertikal */
+}
+
+/* Sicherstellen, dass die Bilder ihre natürliche Größe beibehalten */
+.referenz img {
+max-width: 100%;
+height: auto;
+}
+
+/* Optional: Stil für die Überschriften hinzufügen */
+.referenz h4 {
+margin: 0; /* Standardmäßige Margin entfernen */
+}
+/* Stelle sicher, dass das h3 kleiner wird, wenn der Bildschirm kleiner wird */
+@media only screen and (max-width: 600px) {
+.subtitle {
+  font-size: 20px;
+}
+}
+:root {
+--font-base: "Space Mono", monospace;
+--transition: 200ms linear;
+--color-dark: #1f1a38;
+--color-dark-glare: #989ea9;
+--color-success: #76f7bf;
+
+--progress-indicator-color-complete: var(--color-success);
+--progress-indicator-progress-stroke: var(--color-dark);
+--progress-indicator-bg-stroke: var(--color-dark-glare);
+}
+
+
+
+
+*,
+::before,
+::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.skills{
+  width: 600px;
+  min-width:300px;
+  max-width: 100%;
+  color:#000000;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-header{
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  width:100%;
+  text-align: center;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.skills-container{
+  max-width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  padding:20px;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+.skill-container{
+  width:100%;
+  margin:10px 0;
+  padding: 10px 0;
+  position:relative;
+}
+
+.skill-container p{
+  margin: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.bar{
+  width:100%;
+  background: #475472;
+  display:block;
+  height: 20px;
+  border:none;
+  border-radius: 100vw;
+  overflow: hidden;
+  transition: all .3s cubic-bezier(.25, 8, .25, 1);
+}
+
+.bar span{
+  height:20px;
+  float: left;
+  background: #ffffff;
+
+  border:none;
+  border-radius: 100vw;
+}
+
+/* adding animation to skill bar */
+
+.html.animate, .css.animate{
+  width: 95%;
+  animation: html_css 3s;
+}
+.css.animate{
+width: 90%;
+animation: html_css 3s;
+}
+.javascript.animate{
+  width: 85%;
+  animation: javascript 3s;
+}
+
+.react.animate{
+  width:59%;
+  animation: react 3s;
+}
+
+.node.animate{
+  width:57%;
+  animation: node 3s;
+}
+
+@keyframes html_css{
+  0%{
+      width:0%
+  };
+
+  100%{
+      width:90%
+  }
+}
+
+@keyframes javascript{
+  0%{
+      width:0%
+  };
+
+  100%{
+      width:80%
+  }
+}
+
+@keyframes react{
+  0%{
+      width:0%
+  };
+
+  100%{
+      width:70%
+  }
+}
+
+@keyframes node{
+  0%{
+      width:0%
+  };
+
+  100%{
+      width:50%
+  }
+}
+
+.percentage{
+  content: "";
+  position: absolute;
+  top:12px;
+  width:25px;
+  height:20px;
+  background: #ffffff;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  border-radius: 2px;
+  z-index: 10;
+  transition: all .3s ease-in-out;
+}
+
+.percentage::after{
+  content: "";
+  position: absolute;
+  top:15px;
+  left:50%;
+  transform: translateX(-50%) rotate(45deg);
+  margin: auto;
+  width:10px;
+  height:10px;
+  background: #ffffff;
+  z-index:-1;
+}
+
+/* adding animation to .percentage */
+
+.html-percentage.animate,
+.css-percentage.animate{
+  left:90%;
+  animation: html_css_percentage 3s;
+}
+
+.javascript-percentage.animate{
+  left:80%;
+  animation: javascript_percentage 3s;
+}
+
+.react-percentage.animate{
+  left:70%;
+  animation: react_percentage 3s;
+}
+
+.node-percentage.animate{
+  left:70%;
+  animation: react_percentage 3s;
+}
+
+@keyframes html_css_percentage{
+  0%{
+      left:0
+  };
+  100%{
+      left:90%;
+  }
+}
+
+@keyframes javascript_percentage{
+  0%{
+      left:0
+  };
+  100%{
+      left:80%;
+  }
+}
+
+@keyframes react_percentage{
+  0%{
+      left:0
+  };
+  100%{
+      left:70%;
+  }
+}
+
+@keyframes node_percentage{
+  0%{
+      left:0
+  };
+  100%{
+      left:50%;
+  }
+}
+*{
+scrollbar-color: #007bff #f4f4f4;
+}
+
+
+.foto-items img{
+margin: 10px;
+}
+.foto-items{
+text-align: center;
+
+}
+.foto{
+text-align: center;
+}
+
+/* Stil für den Link */
+.ref {
+
+bottom: 10px;
+right: 10px;
+background-color: #007bff;
+
+border-radius: 80px;
+padding: 7px;
+z-index: 1000;
+width: 10%;
+text-align: center;
+color: rgb(255, 255, 255);
+text-decoration: none;
+box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+justify-content: center;
+align-items: center;
+font-size: 25px;
+cursor: pointer;
+
+
+}
+
+.ref:hover {
+color: #007bff;
+background-color: #ffffff;
+box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+border: solid 3px #007bff;
+}
+/* Responsive styles */
+

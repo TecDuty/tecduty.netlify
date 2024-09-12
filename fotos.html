@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="icon" type="image/x-icon" href="pic/new-logo-smal.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referenzen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<style>
+
+
+    .fotos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        max-width: 80%;
+        margin-top: 150px;
+        display: inline-block;
+    }
+    .foto-items{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .foto-items img{
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.5s ease;
+    }
+    .foto-items:hover img{
+        transform: scale(1.02);
+    }
+</style>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav"> 
+            <img src="pic/new-logo.png" class="main-logo">
+          <a href="index.html" ></a>
+        
+            <a href="index.html#view">Übersicht</a>
+            
+            <a href="index.html#skills">Skills</a>
+            
+            <a href="index.html#Kontakt">Kontakt</a><a href="index.html#Referenzen">Referenzen</a>      <a href="index.html">Home</a>
+            <div class="dropdown"></div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+    <div class="container">
+
+    </div>
+    <div class="container">
+    <div class="fotos">
+
+        <div class="foto-items">
+            <br> <br> <br>
+            <h3>Login eines Schultools</h3>
+            <img src="pic/Screenshot 2024-06-13 110847 login lk.png" alt="Bild 1">
+<h3>Sicht des Aswahlsprogramms der Schüler</h3>
+            <img src="pic/Screenshot 2024-06-13 111001 lk 1.png" alt="Bild 12">
+            <img src="pic/Screenshot 2024-06-13 111033 lk 2.png" alt="Bild 3">
+            <h3>Lehreransicht des Schülertools</h3>
+            <img src="pic/Screenshot 2024-06-13 111224 lk admin 1.png" alt="Bild 4">
+        </div>
+        <dmm div class="foto-items">
+            <h3>Startseite Englandfahrt</h3>
+            <img src="pic/Screenshot 2024-06-13 111422 englasnd 1.png" alt="Bild 5">
+            <h3>Währungsumrechner</h3>
+            <img src="pic/Screenshot 2024-06-13 111814 england 2.png" alt="Bild 6">
+            <h3>Wettervorhersage</h3>
+            <img src="pic/Screenshot 2024-06-13 112051 england 3.png" alt="Bild 7">
+     
+        </div>
+        <div class="foto-items">
+            
+     
+        </div>
+    </div>
+    </div>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FranziProgrammer. Alle Rechte vorbehalten.</p><a href='/impressum' style='font-size: 20px;'>Impressum|</a><a href='/datenschutz' style='font-size: 20px;'>Datenschutz</a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => {
+        
+        alert('Bild angeklickt: ' + item.querySelector('img').alt);
+    });
+});
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+    </script>
+</body>
+</html>
