@@ -129,7 +129,7 @@ height: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-z-index: 2; /* Stellt sicher, dass der Text über dem Bild liegt */
+z-index: 2; /* Stellt sicher, dass der Text über dem e liegt */
 }
 
 .text-overlay .container {
@@ -854,3 +854,10 @@ border: solid 3px #007bff;
 }
 /* Responsive styles */
 
+.social{
+  width: 40px;
+ display: flex; margin-bottom: -50px; margin-left: -120px;
+}
+.social:hover{
+  width: 50px;
+}
