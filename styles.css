@@ -486,7 +486,7 @@ text-align: center;
 padding: 20px;
 width: 250px;
 height:350px;
-background: rgb(217, 224, 226);
+background: rgb(230, 238, 240);
 border-radius: 10px; 
 margin-top: 10px;
 color: rgb(0, 0, 0);
@@ -922,7 +922,7 @@ border: solid 3px #007bff;
   padding-right: 50px;
   padding-bottom: 10px;
   padding-left: 50px;
-  background-color: rgb(217, 224, 226);
+  background-color: rgb(230, 238, 240);
 }
 
 .inner-container {
