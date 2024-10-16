@@ -486,26 +486,26 @@ text-align: center;
 padding: 20px;
 width: 250px;
 height:350px;
-background: rgba(65,129,253,255);
+background: rgb(217, 224, 226);
 border-radius: 10px; 
 margin-top: 10px;
-color: white;
+color: rgb(0, 0, 0);
 }
 
 .process-step h2 {
 font-size: 28px;
 margin: 10px 0;
-color: white;
+color: rgb(0, 0, 0);
 }
 .process-step h1 {
   font-size: 28px;
   margin: 10px 0;
-  color: white;
+  color: rgb(0, 0, 0);
   }
 
 .process-step p {
 font-size: 24px;
-color: #dadada;
+color: #000000;
 
 }
 .process-container {
@@ -657,7 +657,7 @@ margin: 0; /* Standardmäßige Margin entfernen */
 
 .bar{
   width:100%;
-  background: #475472;
+  background: #ffffff;
   display:block;
   height: 20px;
   border:none;
@@ -669,7 +669,7 @@ margin: 0; /* Standardmäßige Margin entfernen */
 .bar span{
   height:20px;
   float: left;
-  background: #ffffff;
+  background: #4181fd;
 
   border:none;
   border-radius: 100vw;
@@ -679,6 +679,7 @@ margin: 0; /* Standardmäßige Margin entfernen */
 
 .html.animate, .css.animate{
   width: 95%;
+
   animation: html_css 3s;
 }
 .css.animate{
@@ -921,7 +922,7 @@ border: solid 3px #007bff;
   padding-right: 50px;
   padding-bottom: 10px;
   padding-left: 50px;
-  background-color: rgb(244, 252, 255);
+  background-color: rgb(217, 224, 226);
 }
 
 .inner-container {
