@@ -35,6 +35,12 @@ section h2 {
   margin-bottom: 30px;
   
 }
+section h1 {
+  color: #000000;
+  font-size: 2em;
+  margin-bottom: 30px;
+  
+}
 
 h3{
   font-size: 30px;
@@ -212,6 +218,9 @@ text-align: center;
 h2 {
   font-size: 25px;
 }
+h1 {
+  font-size: 25px;
+}
 
 .svg-background{
   margin-bottom: -200px ;
@@ -236,6 +245,10 @@ font-size: 15px;
   width: 35%;
 }
 section h2{
+  font-size: 26px;
+
+}
+section h1{
   font-size: 26px;
 
 }
@@ -484,6 +497,11 @@ font-size: 28px;
 margin: 10px 0;
 color: white;
 }
+.process-step h1 {
+  font-size: 28px;
+  margin: 10px 0;
+  color: white;
+  }
 
 .process-step p {
 font-size: 24px;
@@ -513,7 +531,10 @@ flex-wrap: wrap; /* Erlaubt das Umbruch der Elemente in einer zweiten Zeile */
   font-size: 13px;
   margin: 10px 0;
 }
-
+.process-step h1 {
+  font-size: 13px;
+  margin: 10px 0;
+}
 }
 
 .bild h4{font-size: 22px;}
